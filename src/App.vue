@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <li class="nav-item">
-  <router-link class="nav-link" to="/">Home</router-link>
-</li>
+
+ <div class="nav">
+    <div class="left-nav">
+        
 <li class="nav-item">
   <router-link class="nav-link" to="/bikecheck">bikecheck</router-link>
  </li>
@@ -13,6 +14,22 @@
   <router-link class="nav-link" to="/stream">stream</router-link>
  </li>
  
+  </div>
+  <div class="logo"><li class="nav-item">
+  <router-link class="nav-link" to="/">Home</router-link>
+</li>
+</div>
+<div class="right-nav">
+   <li class="nav-item">
+  <router-link class="nav-link" to="/">log in / register</router-link>
+ </li> <li class="nav-item">
+  <router-link class="nav-link" to="/">basket</router-link>
+ </li> <li class="nav-item">
+  <router-link class="nav-link" to="/">ua|EN</router-link>
+ </li>
+  
+</div>
+ </div>
 
     <router-view/>
   </div>
@@ -27,5 +44,10 @@ export default {
 <style>
 #app {
  
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  
 }
 </style>
