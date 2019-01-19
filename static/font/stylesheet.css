@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Bebas Neue Book';
+    font-family: 'BebasNeueBook';
     src: url('BebasNeueBook.eot');
     src: url('BebasNeueBook.eot?#iefix') format('embedded-opentype'),
         url('BebasNeueBook.woff') format('woff'),
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-    font-family: 'Bebas Neue';
+    font-family: 'BebasNeue';
     src: url('BebasNeueBold.eot');
     src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
         url('BebasNeueBold.woff') format('woff'),
@@ -28,7 +28,7 @@
 }
 
 @font-face {
-    font-family: 'Bebas Neue Thin';
+    font-family: 'BebasNeueThin';
     src: url('BebasNeue-Thin.eot');
     src: url('BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
     url('BebasNeue-Thin.woff') format('woff'),
@@ -37,7 +37,7 @@
     font-style: normal;
     }
     @font-face {
-        font-family: 'Bebas Neue Regular';
+        font-family: 'BebasNeueRegular';
         src: url('BebasNeueRegular.eot');
         src: url('BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
         url('BebasNeueRegular.woff') format('woff'),

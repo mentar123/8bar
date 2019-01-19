@@ -1,0 +1,20 @@
+#app {
+ 
+}
+ .nav{
+  font-size: 22px;
+  font-family: 'BebasNeue';
+  
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.nav a{
+color: white;
+}
+.left-nav{
+  display: flex;
+}
+.right-nav{
+  display: flex;
+}

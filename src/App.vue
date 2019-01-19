@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
- <div class="nav">
+ <div class="nav text-white">
     <div class="left-nav">
         
 <li class="nav-item">
@@ -41,13 +41,6 @@ export default {
 }
 </script>
 
-<style>
-#app {
- 
-}
-.nav{
-  display: flex;
-  justify-content: space-between;
-  
-}
+<style lang="scss">
+@import "app.scss"
 </style>
