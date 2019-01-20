@@ -1,20 +1,31 @@
 #app {
  
 }
- .nav{
-  font-size: 22px;
-  font-family: 'BebasNeue';
-  
-  display: flex;
-  justify-content: space-between;
-  background-color: black;
+.fixed{
+    top:0;
+    left: 0;
+    position: fixed;
 }
-.nav a{
-color: white;
-}
-.left-nav{
-  display: flex;
-}
-.right-nav{
-  display: flex;
+.navigation{
+    height: 40px;
+    width: 100%;
+    .nav{
+        font-size: 22px;
+        font-family: 'BebasNeue';
+        
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+         a{
+            color: white;
+            }
+            .left-nav{
+              display: flex;
+            }
+            .right-nav{
+              display: flex;
+            }
+      }
+      
+      
 }
