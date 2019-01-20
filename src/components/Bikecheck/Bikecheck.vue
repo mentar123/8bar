@@ -2,8 +2,9 @@
   <div class="bikecheck">
     <h1> {{msg}}</h1>
     <h2>{{msg}}</h2>
-    {{msg}}
     
+    <div class="section"></div>
+    <div class="section"></div>
     
   </div>
 </template>

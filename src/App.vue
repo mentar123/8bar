@@ -50,12 +50,10 @@ export default {
   methods: {
     scrollMen(){
      
-        let position = this.$el.getBoundingClientRect().top
- console.log(position)
-      
+        let position = this.$el.getBoundingClientRect().top     
         if(position<0){
           this.$el.firstChild.classList.add("fixed");
-          console.log(this)
+          
         }
         else{
          this.$el.firstChild.classList.remove("fixed");
