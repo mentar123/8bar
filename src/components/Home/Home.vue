@@ -23,12 +23,19 @@
         </div> 
    </section>
    <section class="section3">
-      <div>
-        <div>
-          <h2>You should know more</h2>
-          <span>what waiting for you around the corner</span>
+     <div class="vimeo-wrapper">
+   <iframe src="https://player.vimeo.com/video/109392747?background=1&autoplay=0&loop=1&byline=0&title=0"
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+      
+        <div class="play">
+          <div class="tittle">
+            <h2>You should <br> know more</h2>
+          <span>what waiting for you <br> around the corner</span>
+          </div>
+          <button @click="play()">play</button>
         </div>
-      </div>
+      
    </section>
   </div>
 </template>
@@ -41,7 +48,21 @@ export default {
       title:'Home',
       msg: 'Welcome to 8bar App'
     }
-  }
+  },
+  methods: {
+    play: function(){
+      console.log('play')
+      let iframe = document.querySelector('iframe');
+      console.log(iframe)
+    let player = new Vimeo.Player(iframe);
+    let playClass = document.querySelector(".play")
+    playClass.classList.add('hide')
+    player.play();
+      
+
+   
+    }
+  },
 }
 </script>
 
