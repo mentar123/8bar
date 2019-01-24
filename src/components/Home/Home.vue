@@ -55,6 +55,14 @@
         </div>
     </div>
   </section>
+  <section class="section5">
+    <div class="conteiner-fluid">
+      <div class="wrapper">
+        <span class="span1">Be ready <br> to ride</span>
+        <span>hard ride</span>
+      </div>
+    </div>
+  </section>
   </div>
 </template>
 
@@ -85,6 +93,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
+<style scoped lang="scss">
 @import "home.scss";
 </style>

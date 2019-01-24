@@ -2,12 +2,12 @@
   <div class="stream">
     <section class="section1">
       <div class="vimeo-wrapper">
-        <iframe src="https://player.vimeo.com/video/306551173?background=1&autoplay=0&loop=1&byline=0&title=0"
+   <iframe src="https://player.vimeo.com/video/110052827?background=1&autoplay=1&loop=1&byline=0&title=0"
            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
+</div>
       
       <div class="play">
-          <button @click="play()">stream</button>
+          <h2>Stream</h2>
       </div>
       
   </section>
@@ -23,12 +23,15 @@ export default {
       title:'Stream',
       msg: 'stream'
     }
-  }
+  },
+  methods: {
+     
+  },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
+<style scoped lang="scss">
 @import "streamComp.scss";
 </style>
 

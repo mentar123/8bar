@@ -1,3 +1,6 @@
+.home{
+    background-color: black;
+}
 .button{
     display: flex;
     justify-content: center;
@@ -18,6 +21,7 @@
     background-size: cover;
     height: 100vh;
     color: white;
+    z-index: 2;
   
     .shop{
         padding-top: 32%;
@@ -171,7 +175,37 @@
             }
         }
     }
-    
-    
-    
+}
+.section5{
+    margin-top: 100px;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+   
+    .conteiner-fluid{
+        height: 70vh;
+        width: 100%;
+        background-image: url("../../assets/img/section5-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .wrapper{
+            transform: translateY(-100px);
+            color: white;
+            margin-left: 200px;
+            font-family: 'BebasNeue';
+            font-size: 5vh;
+            .span1{
+                text-align: end;
+                font-family: 'AGLettericaExtraCompressed';
+                font-size: 15vh;
+                margin: 0;
+                line-height: 1;
+            }
+            display: flex;
+           
+            align-items: flex-end;
+        }
+    }
 }
