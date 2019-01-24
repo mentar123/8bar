@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'AGLettericaExtraCompressed';
-    src: url('AGLettericaExtraCompressed-Oblique.eot');
-    src: url('AGLettericaExtraCompressed-Oblique.eot?#iefix') format('embedded-opentype'),
+    src:url('AGLettericaExtraCompressed-Oblique.eot');
+    src:url('AGLettericaExtraCompressed-Oblique.eot?#iefix') format('embedded-opentype'),
         url('AGLettericaExtraCompressed-Oblique.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'BebasNeueBook';
-    src: url('BebasNeueBook.eot');
-    src: url('BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+    src:url('BebasNeueBook.eot');
+    src:url('BebasNeueBook.eot?#iefix') format('embedded-opentype'),
         url('BebasNeueBook.woff') format('woff'),
         url('BebasNeueBook.ttf') format('truetype');
     font-weight: normal;
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url('BebasNeueBold.eot');
-    src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    src:url('BebasNeueBold.eot');
+    src:url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
         url('BebasNeueBold.woff') format('woff'),
         url('BebasNeueBold.ttf') format('truetype');
     font-weight: bold;

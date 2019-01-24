@@ -1,3 +1,14 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 220px;
+    height: 50px;
+    background: white;
+    font-size: 22px;
+    color: black;
+}
 .section1{
     // background-color: black;
     background-image: url("../../assets/img/section1-bg.jpg");
@@ -7,7 +18,7 @@
     background-size: cover;
     height: 100vh;
     color: white;
-    
+  
     .shop{
         padding-top: 32%;
       padding-left: 55%;
@@ -59,14 +70,7 @@
         .issue{
             transform: translate(0,-120px);
             width: 50%;
-            .nav-link{
-                text-align: center;
-                width: 220px;
-                height: 50px;
-                background: white;
-                font-size: 22px;
-                color: black;
-            }
+            
         }
     }
 }
@@ -123,4 +127,51 @@
         left: 50%;
         transform: translate(-50%, -50%);
      }
+}
+.section4{
+    background-color: black;
+    color:white;
+    font-family: 'BebasNeue';
+    font-size: 35px;
+    h2{
+        font-size: 16vh;
+        font-family: 'AGLettericaExtraCompressed';
+        transform: translate(50px,180px);
+       
+    }
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .wrapper{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-around;
+    
+            .magazine-wrapper{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .caption{
+                    router-link{
+
+                    }
+                }
+                img{
+                    max-width: 740px;
+                }
+            }
+            .photo{
+                img{
+                    width: 600px;
+                }
+            }
+        }
+    }
+    
+    
+    
 }

@@ -18,25 +18,43 @@
             New models of rudders and steering columns.
             An incredible combination of the beauty
             of lightness and sportiness.</p>
-          <router-link class="nav-link" to="/shop">view</router-link>
+          <router-link class="button" to="/shop">view</router-link>
         </div>
         </div> 
-   </section>
-   <section class="section3">
-     <div class="vimeo-wrapper">
-   <iframe src="https://player.vimeo.com/video/109392747?background=1&autoplay=0&loop=1&byline=0&title=0"
+  </section>
+  <section class="section3">
+      <div class="vimeo-wrapper">
+        <iframe src="https://player.vimeo.com/video/109392747?background=1&autoplay=0&loop=1&byline=0&title=0"
            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+      </div>
       
-        <div class="play">
+      <div class="play">
           <div class="tittle">
             <h2>You should <br> know more</h2>
-          <span>what waiting for you <br> around the corner</span>
+            <span>what waiting for you <br> around the corner</span>
           </div>
           <button @click="play()">play</button>
-        </div>
+      </div>
       
-   </section>
+  </section>
+  <section class="section4">
+    <div class="container-fluid">
+        <h2>The most actual<br> articles</h2>
+        <div class="wrapper">
+          <div class="magazine-wrapper">
+            <img src="../../assets/img/photo-magazine.png" alt="">
+            <div class="caption">
+              <span>8bar collects the best originals photos<br> & most effective articles</span>
+              <router-link class="button" to="/shop">SHOW NOW</router-link>
+            </div>
+          </div>
+          
+          <div class="photo">
+            <img src="../../assets/img/photo-magazine-bike.jpg" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
   </div>
 </template>
 
