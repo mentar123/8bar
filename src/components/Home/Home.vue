@@ -10,8 +10,8 @@
       <div class="last-magazine">
           <img src="../../assets/img/last-magazine.jpg" alt="">
       </div>
-      <div class="issue-magazine">
-        <div class="issue">
+      <div class="issues-magazine">
+        <div class="issues">
           <h2>fixed gear magazine issue 6</h2>
           <p>Latest issue of fixed gear magazine describe
             the latest innovations on the market.
@@ -63,6 +63,48 @@
       </div>
     </div>
   </section>
+  <section class="section6">
+    <div class="container-fluid">
+      <div class="warpper">
+        <a href="#" class="prev" @click="prev($event)">prev</a>
+        <div class="issue curry">
+          <h3>issue1</h3>
+          <img src="../../assets/img/section6-issue1.jpg" alt="">
+           <a href="" class="button">show now</a>
+        </div>
+        <div class="issue">
+          <h3>issue2</h3>
+           <img src="../../assets/img/section6-issue2.jpg" alt="">
+            <a href="" class="button">show now</a>
+        </div>
+        <div class="issue">
+          <h3>issue3</h3>
+           <img src="../../assets/img/section6-issue2.jpg" alt="">
+            <a href="" class="button">show now</a>
+        </div>
+         <a href="#" class="next" @click="next($event)">next</a>
+         
+      </div>
+     
+      <div class="cyclists">
+        <div class="cycl curry">
+            <img src="../../assets/img/section6-cyclists1.jpg" alt="">
+        </div>
+        <div class="cycl">
+            <img src="../../assets/img/section6-cyclists2.jpg" alt="">
+        </div>
+        <div class="cycl">
+            <img src="../../assets/img/section6-cyclists2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section7">
+    <div class="container-fluid">
+      <h2>You should<br>appreciate it</h2>
+      <span>COOL BIKES</span>
+    </div>
+  </section>
   </div>
 </template>
 
@@ -83,11 +125,44 @@ export default {
     let player = new Vimeo.Player(iframe);
     let playClass = document.querySelector(".play")
     playClass.classList.add('hide')
-    player.play();
-      
-
-   
+    player.play();   
+    },
+  next:function(event){
+    event.preventDefault();
+    var currentIssue = $('.issue.curry');
+    var currentIssueIndex = $(".issue.curry").index(".issue");
+    var currentCycle = $('.cycl.curry');
+    var currentCycleIndex = $('.cycl.curry').index(".cycl");
+    var nextIssueIndex = currentIssueIndex+1;
+    var nextCycleIndex = currentCycleIndex+1;
+    var nextIssue = $('.issue').eq(nextIssueIndex);
+    var nextCycle = $('.cycl').eq(nextCycleIndex);
+    currentIssue.removeClass('curry');
+    currentCycle.removeClass('curry');
+    if(nextIssueIndex == ($('.issue:last').index(".issue")+1)){
+      $('.issue').eq(0).addClass('curry');
+      $('.cycl').eq(0).addClass('curry');
+    }else{
+      nextIssue.addClass('curry');
+      nextCycle.addClass('curry');
     }
+  },
+  prev:function(event){
+    event.preventDefault();
+    var currentIssue = $('.issue.curry');
+    var currentIssueIndex = $(".issue.curry").index(".issue");
+    var currentCycle = $('.cycl.curry');
+    var currentCycleIndex = $('.cycl.curry').index(".cycl");
+    var nextIssueIndex = currentIssueIndex-1;
+    var nextCycleIndex = currentCycleIndex-1;
+    var nextIssue = $('.issue').eq(nextIssueIndex);
+    var nextCycle = $('.cycl').eq(nextCycleIndex);
+    currentIssue.removeClass('curry');
+    currentCycle.removeClass('curry');
+    nextIssue.addClass('curry');
+    nextCycle.addClass('curry');
+    
+  }
   },
 }
 </script>
