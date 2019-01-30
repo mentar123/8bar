@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     width: 220px;
     height: 50px;
     background: white;
@@ -229,8 +228,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            .prev,.next{
+                color: white;
+                font-size: 5vh;
+                padding: 0 3vw;
+            }
             .issue{
                 display: none;
+                h3,a{
+                    margin: 3vh 0;
+                }
+                
             }
             .curry{
                 text-align: center;
