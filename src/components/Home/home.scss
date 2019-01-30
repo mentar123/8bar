@@ -1,3 +1,4 @@
+
 .home{
     background-color: black;
 }
@@ -92,6 +93,13 @@
         height: 50%;
         justify-content: space-between;
         align-items: center;
+        button{
+            border: none;
+            background: none;
+            font-size: 10vh;
+            color: white;
+            cursor: pointer;
+        }
         .tittle{
             display: flex;
             color: white;
@@ -259,6 +267,62 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        padding-left: 20vw;
+        padding-bottom: 100px;
+        font-family: 'BebasNeue';
+        font-size: 5vh;
+        line-height: 1;
+        color:white;
+        h2{
         
+            font-size: 13vh;
+            line-height: 1;
+            margin: 0;
+            font-family: 'AGLettericaExtraCompressed';
+
+        }
+    }
+}
+.section8{
+    .conteiner-fluid{
+        padding: 20vh 0;
+        h2{
+            font-size: 5vh;
+        }
+        a{
+            margin: 1vh 0;
+        }
+        .black{
+            color: white;
+            background: black;
+            border: 1px solid white;
+        }
+        color: white;
+        font-family: 'BebasNeue';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 50px;
+        ul{
+            font-family: 'BebasNeue';
+            display: flex;
+            li{ 
+                padding: 0 20px;
+                text-transform: uppercase;
+                list-style: none;
+                a{  
+                    font-size: 3vh;
+                    color: white;
+                    
+                }
+            }
+        }
     }
 }

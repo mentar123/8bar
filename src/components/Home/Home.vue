@@ -33,7 +33,7 @@
             <h2>You should <br> know more</h2>
             <span>what waiting for you <br> around the corner</span>
           </div>
-          <button @click="play()">play</button>
+          <button @click="play()"><font-awesome-icon icon="play-circle" /></button>
       </div>
       
   </section>
@@ -66,7 +66,7 @@
   <section class="section6">
     <div class="container-fluid">
       <div class="warpper">
-        <a href="#" class="prev" @click="prev($event)">prev</a>
+        <a href="#" class="prev" @click="prev($event)"><font-awesome-icon icon="chevron-left" /></a>
         <div class="issue curry">
           <h3>issue1</h3>
           <img src="../../assets/img/section6-issue1.jpg" alt="">
@@ -82,7 +82,7 @@
            <img src="../../assets/img/section6-issue2.jpg" alt="">
             <a href="" class="button">show now</a>
         </div>
-         <a href="#" class="next" @click="next($event)">next</a>
+         <a href="#" class="next" @click="next($event)"><font-awesome-icon icon="chevron-right" /></a>
          
       </div>
      
@@ -103,6 +103,25 @@
     <div class="container-fluid">
       <h2>You should<br>appreciate it</h2>
       <span>COOL BIKES</span>
+    </div>
+  </section>
+  <section class="section8">
+    <div class="conteiner-fluid">
+      <h2>subscribe to our newsletter</h2>
+      <a href="#" class="button black">e-mail</a>
+      <a href="#" class="button">submit</a>
+    </div>
+    <div class="footer">
+      <ul>
+        <li><a href="#">shipping</a></li>
+        <li><a href="#">terms & privacy policy</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="#"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a></li>
+        <li><a href="#"><font-awesome-icon :icon="['fab', 'youtube']" /></a></li>
+        <li><a href="#"><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
+      </ul>
     </div>
   </section>
   </div>
@@ -161,7 +180,6 @@ export default {
     currentCycle.removeClass('curry');
     nextIssue.addClass('curry');
     nextCycle.addClass('curry');
-    
   }
   },
 }
@@ -170,4 +188,5 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "home.scss";
+
 </style>
