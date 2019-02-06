@@ -1,0 +1,106 @@
+.shop{
+    background-color: black;
+    min-height: 100vh;
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 50px;
+        background: white;
+        font-size: 22px;
+        color: black;
+    }
+    .section1{
+        
+        .container-fluid{
+            
+            .product-list{
+                
+                .product{
+                    
+                    .wrapper{
+                        padding: 50px 50px;
+                        display: flex;
+                        flex-direction: column;
+                        .img-wrapper{
+                            height: 40vh;
+                            width: 100%;
+                            background-color: white;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            img{
+                                width: 50%;
+                            }
+                        }
+                        .title-wrapper{
+                            margin-top: 10px;
+                            color: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            line-height: 0.5;
+                            font-family: 'BebasNeueBook';
+                            .title{
+                                h3{
+                                    font-family: 'BebasNeue';
+                                    margin: 0;
+                                    line-height: 1;
+                                }
+                                span{
+                                    font-size: 2vh;
+                                }
+                            }
+                            span{
+                                font-size: 4vh;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .section2{
+        .conteiner-fluid{
+            padding: 20vh 0;
+            h2{
+                font-size: 5vh;
+            }
+            a{
+                margin: 1vh 0;
+            }
+            .black{
+                color: white;
+                background: black;
+                border: 1px solid white;
+            }
+            color: white;
+            font-family: 'BebasNeue';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 50px;
+            ul{
+                font-family: 'BebasNeue';
+                display: flex;
+                li{ 
+                    padding: 0 20px;
+                    text-transform: uppercase;
+                    list-style: none;
+                    a{  
+                        font-size: 3vh;
+                        color: white;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
