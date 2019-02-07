@@ -20,12 +20,13 @@
             of lightness and sportiness.</p>
           <router-link class="button" to="/shop">view</router-link>
         </div>
-        </div> 
-  </section>
+      </div> 
+    </section>
   <section class="section3">
       <div class="vimeo-wrapper">
         <iframe src="https://player.vimeo.com/video/109392747?background=1&autoplay=0&loop=1&byline=0&title=0"
-           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
       </div>
       
       <div class="play">

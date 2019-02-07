@@ -9,8 +9,8 @@
     align-items: center;
     .play{
         h2{
-           
-            font-size: 20vh;
+           letter-spacing: 5px;
+            font-size: 40vh;
             color: white;
             font-family: 'AGLettericaExtraCompressed';
             text-transform: uppercase;
@@ -66,5 +66,29 @@
      }
 }
 .section2{
+    height: 100vh;
+    background-color: black;
+    background-image: url("../../assets/img/streamComp-section2-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: right;
     
+    .wrapper{
+        margin-left: 200px;
+        padding-top: 200px;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        color: white;
+        h3{
+            font-family: 'BebasNeue';
+            font-size: 8vh;
+        }
+        p{
+            font-family: 'BebasNeueRegular';
+            font-size: 3vh;
+        }
+    }
 }
